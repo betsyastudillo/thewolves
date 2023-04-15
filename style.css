@@ -17,6 +17,14 @@ body {
   display: none;
 }
 /* NAVBAR GENERAL */
+.darken {
+  width: 100%;
+  height: calc(100%);
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -247,6 +255,17 @@ aside {
 }
 
 /* ProductDetail Aside */
+#productDetail {
+  width: 360px;
+  height: auto;
+  padding: 24px;
+  position: absolute;
+  top: 120px;
+  right: 50%;
+  transform: translate(50%, 0);
+  background-color: var(--blanco);
+  border-radius: 10px;
+}
 .product-detail-close {
   background-color: var(--blanco);
   width: 14px;
